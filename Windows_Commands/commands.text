@@ -1,0 +1,31 @@
+cd name of the folder 
+dir /a                   //show all the hidden files .
+dir *.png                 //all the files that have the same formate 
+ipconfig /?              // ? to show info about the command .
+mkdir name               // create dir .
+rmdir name               // remove dir .
+rmdir name/s             // if the folder is not empty . 
+cd "c:\ProgramFile"   
+color --                     // change the color of the terminal .
+
+
+-delete and appending files .
+
+del file
+
+echo some text > name of the file   // to type text from the terminal .
+
+echo some text >> the same file  //  to add more .
+
+dir > test1.text                   // type the info of the dir as a file .
+
+copy  "source"  "where"  //  copy test.text folder1
+
+xcopy 'folder name'    'folder name'  with  /s to copy all the content . 
+
+move " the current place "   " the new place "
+
+rename 'oldname' 'newname'
+
+type nul > hello.text           //to create a file 
+

@@ -1,0 +1,53 @@
+ls // show the list of the files
+
+cd or cd .. or cd name
+
+touch  file name //create file
+
+mkdir folder name // create folder
+
+rm file name // remove the file
+
+cat file name // show the content of the file
+
+pwd // full path to where you are right now 
+
+cp file or folder   // to copy 
+
+mv  name         //move 
+
+grep  name       // search for a specific phrase in file or a line 
+
+find name    // find file or folder   
+
+vi/nano     // text editor 
+
+history     //  to show last 50 used commands .
+
+clear  //  to clear the screen .
+
+tar  name // create or unpack compressed archives .
+
+wget name or link   // to download files from the internet .  
+
+du name   // get file size .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

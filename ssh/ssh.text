@@ -1,0 +1,17 @@
+install ssh server on the remote device .
+install putty on windows or linux to communicate with server 'the remote device ' 
+
+login :
+
+> ssh name@ip 
+
+Generating Keys :
+
+>ssh-keygen
+
+.~/.ssh/id_rsa(PrivateKey)
+
+.~/.ssh/id_rsa.pub(PublicKey)
+
+Public Key goes into server "authorized-keys"file .
+

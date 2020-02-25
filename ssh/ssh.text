@@ -15,3 +15,20 @@ Generating Keys :
 
 Public Key goes into server "authorized-keys"file .
 
+You can list all the public keys you have by doing:
+
+$ ls ~/.ssh/*.pub
+
+How to remove a passphrase from an SSH key used for Git pull or push
+If you accidentally create a passphrase for a git SSH key that requires you to type it for each git pull and git push
+you can just reset the password to blank:
+
+$ ssh-keygen -p
+Enter file in which the key is (/home/username/.ssh/id_rsa):
+Enter old passphrase: *************
+Enter new passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved with the new passphrase.
+
+When is asks for a new passphrase, just leave it empty. Then you can git push and git pull without a passphrase!
+

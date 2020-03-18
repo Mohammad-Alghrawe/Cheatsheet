@@ -1,2 +1,2 @@
 # **Github Steps**
-![](/github-steps.jpeg)
+![](/github/github-steps.jpg)
